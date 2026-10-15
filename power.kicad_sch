@@ -2294,6 +2294,28 @@
 			)
 		)
 	)
+	(global_label "5V_F"
+		(shape input)
+		(at 213.36 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "594f92d3-c8ab-4b01-8fd8-a72bf71ed4b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.0205 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RF_PWR_EN"
 		(shape input)
 		(at 92.71 72.39 180)
@@ -4441,7 +4463,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LP5907MFX-3.3")
-		(at 213.36 27.94 0)
+		(at 220.98 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4450,7 +4472,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb1ad198-2565-46d6-8508-dc52b2f978d5")
 		(property "Reference" "U4"
-			(at 213.36 17.78 0)
+			(at 220.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4480,7 @@
 			)
 		)
 		(property "Value" "LP5907MFX-3.3"
-			(at 213.36 20.32 0)
+			(at 220.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4488,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 213.36 19.05 0)
+			(at 220.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4497,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
-			(at 213.36 15.24 0)
+			(at 220.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4506,7 @@
 			)
 		)
 		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
-			(at 213.36 27.94 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

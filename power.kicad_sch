@@ -2022,6 +2022,12 @@
 		(uuid "772e2f58-9edb-474e-9f34-0c9b319b3945")
 	)
 	(junction
+		(at 209.55 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e62150-6e93-416c-9ccf-bb1158dd76c8")
+	)
+	(junction
 		(at 54.61 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2147,6 +2153,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 41.91) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37dba970-8440-47f5-a9d9-6afb1177c546")
+	)
+	(wire
+		(pts
 			(xy 46.99 69.85) (xy 44.45 69.85)
 		)
 		(stroke
@@ -2214,6 +2230,16 @@
 			(type default)
 		)
 		(uuid "60944df7-989e-4401-93cc-9eb502b2bfa3")
+	)
+	(wire
+		(pts
+			(xy 209.55 44.45) (xy 213.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bfffe6-5e73-4b57-8373-a21716ffd4d9")
 	)
 	(wire
 		(pts
@@ -2337,6 +2363,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 41.91) (xy 209.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe6ab1b-459b-4445-8a2f-f1339e272917")
+	)
+	(wire
+		(pts
 			(xy 107.95 83.82) (xy 107.95 80.01)
 		)
 		(stroke
@@ -2397,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 44.45) (xy 209.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3670f0e-ccff-4681-bd0c-088800a253e5")
+	)
+	(wire
+		(pts
 			(xy 166.37 29.21) (xy 166.37 25.4)
 		)
 		(stroke
@@ -2404,6 +2450,16 @@
 			(type default)
 		)
 		(uuid "fd097b5d-fa71-4dab-8476-c1c8ba8870b9")
+	)
+	(wire
+		(pts
+			(xy 229.87 41.91) (xy 228.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffea8276-01d7-449f-9080-5bcdc71accd5")
 	)
 	(text "LC low-pass for PWR-2/4 ripple"
 		(exclude_from_sim no)
@@ -2457,13 +2513,35 @@
 	)
 	(text "LDO for RF"
 		(exclude_from_sim no)
-		(at 221.234 55.372 0)
+		(at 230.632 52.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e51c6efb-40a8-48b7-b827-89b82229019a")
+	)
+	(global_label "3V0_RF"
+		(shape input)
+		(at 229.87 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b09b2a3-4c87-4528-8f98-f258757c77b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.689 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "5V_F"
 		(shape input)
@@ -2511,7 +2589,7 @@
 	)
 	(global_label "5V_F"
 		(shape input)
-		(at 213.36 41.91 180)
+		(at 208.28 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2521,7 +2599,7 @@
 		)
 		(uuid "594f92d3-c8ab-4b01-8fd8-a72bf71ed4b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.0205 41.91 0)
+			(at 200.9405 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,6 +3104,72 @@
 			(project "VIP_direct_sampling_board"
 				(path "/45f99759-2553-47c9-8640-9aec1810c6cc/7b2d3bba-bbf7-4c7f-a096-b989c0e14168"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b0036ba-d49d-4f33-9314-e7d65f1d0e80")
+		(property "Reference" "#PWR038"
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7322b8c-2d86-408d-9040-060f0733fc0e")
+		)
+		(instances
+			(project ""
+				(path "/45f99759-2553-47c9-8640-9aec1810c6cc/7b2d3bba-bbf7-4c7f-a096-b989c0e14168"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

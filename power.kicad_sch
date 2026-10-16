@@ -983,7 +983,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LP5907MFX-3.3"
+		(symbol "Regulator_Linear:LP5907MFX-3.0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -995,7 +995,7 @@
 					)
 				)
 			)
-			(property "Value" "LP5907MFX-3.3"
+			(property "Value" "LP5907MFX-3.0"
 				(at 6.35 6.35 0)
 				(effects
 					(font
@@ -1021,7 +1021,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
+			(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1048,7 +1048,176 @@
 					(hide yes)
 				)
 			)
-			(symbol "LP5907MFX-3.3_0_1"
+			(symbol "LP5907MFX-3.0_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LP5907MFX-4.5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LP5907MFX-4.5"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 4.5V, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Output LDO Low-Noise"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LP5907MFX-4.5_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 5.08)
@@ -1865,6 +2034,12 @@
 		(uuid "967b33b0-7ca5-44f8-9c49-cd804c28b801")
 	)
 	(junction
+		(at 87.63 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab369785-8cbe-476e-86f2-a11073c07003")
+	)
+	(junction
 		(at 72.39 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1982,6 +2157,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 62.23) (xy 87.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41916337-7b8c-41c1-ae2f-3c12f7c27d3e")
+	)
+	(wire
+		(pts
 			(xy 166.37 25.4) (xy 175.26 25.4)
 		)
 		(stroke
@@ -1989,6 +2174,16 @@
 			(type default)
 		)
 		(uuid "47291b24-c144-4dfb-9e6a-7efdeb022cc0")
+	)
+	(wire
+		(pts
+			(xy 87.63 64.77) (xy 107.95 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ce9c78-48a7-45b4-8c25-64c95d4eec59")
 	)
 	(wire
 		(pts
@@ -2042,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 107.95 64.77)
+			(xy 72.39 64.77) (xy 87.63 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2230,6 +2425,16 @@
 		)
 		(uuid "1e7004c7-3fb7-4570-9847-1fdc86d44d13")
 	)
+	(text "LDO for Telemetry"
+		(exclude_from_sim no)
+		(at 62.484 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "787370f3-48f0-4ecc-9b57-127759d35e0d")
+	)
 	(text "Master power switch for the RF hardware"
 		(exclude_from_sim no)
 		(at 130.556 92.71 0)
@@ -2249,6 +2454,16 @@
 			)
 		)
 		(uuid "9b2d9c0d-312f-41de-ad51-c910fc8935a9")
+	)
+	(text "LDO for RF"
+		(exclude_from_sim no)
+		(at 221.234 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e51c6efb-40a8-48b7-b827-89b82229019a")
 	)
 	(global_label "5V_F"
 		(shape input)
@@ -2340,7 +2555,7 @@
 	)
 	(global_label "5V_Diode"
 		(shape input)
-		(at 87.63 64.77 90)
+		(at 87.63 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2350,7 +2565,7 @@
 		)
 		(uuid "d9afb975-43a3-4958-8ed4-bce4762d6e1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 53.2577 90)
+			(at 87.63 50.7177 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,6 +2949,160 @@
 			(project ""
 				(path "/45f99759-2553-47c9-8640-9aec1810c6cc/7b2d3bba-bbf7-4c7f-a096-b989c0e14168"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LP5907MFX-3.0")
+		(at 38.1 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1606cad9-3e6b-4e5f-8d8c-ac44590feda6")
+		(property "Reference" "U6"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP5907MFX-3.0"
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9cf9c34f-0905-4a97-b511-41377335b52d")
+		)
+		(pin "1"
+			(uuid "580ef506-4722-47e8-adc8-76a62f5f6ec4")
+		)
+		(pin "2"
+			(uuid "604dec5c-f63a-46a1-9676-c2463a3c53dd")
+		)
+		(pin "4"
+			(uuid "c730dab5-95d9-4df2-bea1-81877f4ece30")
+		)
+		(pin "5"
+			(uuid "738399a9-c849-4a49-866d-3ef1da108cd3")
+		)
+		(instances
+			(project "VIP_direct_sampling_board"
+				(path "/45f99759-2553-47c9-8640-9aec1810c6cc/7b2d3bba-bbf7-4c7f-a096-b989c0e14168"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LP5907MFX-3.0")
+		(at 220.98 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bfadbb0-f316-41ce-9819-f544f53bd61b")
+		(property "Reference" "U13"
+			(at 220.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP5907MFX-3.0"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+			(at 220.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"
+			(at 220.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "02ed4e9f-9930-4e30-abbf-37f1485fbe6f")
+		)
+		(pin "1"
+			(uuid "9a5c7166-2c54-4fc7-b55f-4f03f2b6459e")
+		)
+		(pin "2"
+			(uuid "2136d748-69cf-4237-bb58-d19d5065bed7")
+		)
+		(pin "4"
+			(uuid "bf888896-772d-4f45-a8e8-1b5d4bcd7c64")
+		)
+		(pin "5"
+			(uuid "1c024975-450a-4795-9204-e519d177b1a3")
+		)
+		(instances
+			(project ""
+				(path "/45f99759-2553-47c9-8640-9aec1810c6cc/7b2d3bba-bbf7-4c7f-a096-b989c0e14168"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -3360,25 +3729,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LP5907MFX-3.3")
-		(at 63.5 113.03 0)
+		(lib_id "Regulator_Linear:LP5907MFX-4.5")
+		(at 101.6 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fbe8a71-c3cd-4502-ad2a-7190862e1df9")
-		(property "Reference" "U6"
-			(at 63.5 102.87 0)
+		(uuid "8474800d-d221-4222-bbe2-77332a6a46e9")
+		(property "Reference" "U14"
+			(at 101.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LP5907MFX-3.3"
-			(at 63.5 105.41 0)
+		(property "Value" "LP5907MFX-4.5"
+			(at 101.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3755,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 63.5 104.14 0)
+			(at 101.6 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +3764,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
-			(at 63.5 100.33 0)
+			(at 101.6 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,34 +3772,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
-			(at 63.5 113.03 0)
+		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 4.5V, SOT-23"
+			(at 101.6 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f9d46568-7136-47e8-bfbd-c30f3f5ed6ba")
 		)
 		(pin "2"
-			(uuid "8d04b69c-827f-48e8-a340-47bfb2932364")
+			(uuid "16e5b92d-bd7a-4bdc-8560-54aa6c881fbc")
+		)
+		(pin "1"
+			(uuid "9fc470b6-0cfb-42d5-865d-8a1e37376663")
 		)
 		(pin "3"
-			(uuid "65d69ea9-1f64-410e-9620-d9ba422d7c03")
+			(uuid "5505d316-d02c-4d5e-b18f-36cd987bc1a9")
 		)
 		(pin "4"
-			(uuid "e9cb340e-58d2-4809-a0f0-35f5fec75421")
+			(uuid "2583f08a-a5b7-46aa-ae06-6e912d880744")
 		)
 		(pin "5"
-			(uuid "1f832976-d57b-4ee2-b97f-ecacef8f56de")
+			(uuid "9988b846-a95a-45ed-8bd4-707fb569164e")
 		)
 		(instances
-			(project "VIP_direct_sampling_board"
+			(project ""
 				(path "/45f99759-2553-47c9-8640-9aec1810c6cc/7b2d3bba-bbf7-4c7f-a096-b989c0e14168"
-					(reference "U6")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4462,25 +4831,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LP5907MFX-3.3")
-		(at 220.98 44.45 0)
+		(lib_id "Regulator_Linear:LP5907MFX-3.0")
+		(at 62.23 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb1ad198-2565-46d6-8508-dc52b2f978d5")
+		(uuid "f3fa1a99-f7c9-4a04-a173-b7f112e1f158")
 		(property "Reference" "U4"
-			(at 220.98 34.29 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LP5907MFX-3.3"
-			(at 220.98 36.83 0)
+		(property "Value" "LP5907MFX-3.0"
+			(at 62.23 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +4857,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 220.98 35.56 0)
+			(at 62.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4866,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
-			(at 220.98 31.75 0)
+			(at 62.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,32 +4874,32 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
-			(at 220.98 44.45 0)
+		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"
+			(at 62.23 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "c8cadeb3-9526-4241-bae9-9adcdf855712")
-		)
-		(pin "2"
-			(uuid "cfff7067-0c3c-4558-9c7a-f1ab1e50e6bd")
 		)
 		(pin "3"
-			(uuid "e787584a-e409-4978-afb2-52f8d587d4d6")
+			(uuid "306f5042-a108-4ba4-8cf7-7ebe29f74d01")
+		)
+		(pin "1"
+			(uuid "2d863283-6556-48fe-9093-212c95ea1465")
+		)
+		(pin "2"
+			(uuid "c0f502b4-c324-4892-9c23-315ee1a3cc40")
 		)
 		(pin "4"
-			(uuid "33a56efa-5bd9-4ff3-8019-4bc1688ef4a0")
+			(uuid "9062b135-148a-4087-8414-287decb627c8")
 		)
 		(pin "5"
-			(uuid "90e12c62-0dcc-4826-bbb5-3d6c8ef9bbaf")
+			(uuid "98a920c6-0c5a-4567-9d75-97f802295567")
 		)
 		(instances
-			(project ""
+			(project "VIP_direct_sampling_board"
 				(path "/45f99759-2553-47c9-8640-9aec1810c6cc/7b2d3bba-bbf7-4c7f-a096-b989c0e14168"
 					(reference "U4")
 					(unit 1)

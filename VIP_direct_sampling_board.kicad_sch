@@ -2062,177 +2062,6 @@
 				)
 			)
 		)
-		(symbol "Reference_Voltage:LM4132xMF-1.8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -4.318 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM4132xMF-1.8"
-				(at 7.874 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4132.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision Low Dropout Voltage Reference, 1.8V, ±0.05% to ±0.5%, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Precision Low Dropout Voltage Reference 1.8V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM4132xMF-1.8_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM4132xMF-1.8_1_1"
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulation_SPICE:OPAMP"
 			(pin_names
 				(offset 0.254)
@@ -3781,12 +3610,6 @@
 		(uuid "3a932309-bec0-40e1-a25c-18197a822a5d")
 	)
 	(junction
-		(at 143.51 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56b73300-ae31-4e89-97ad-3ce53a7eed66")
-	)
-	(junction
 		(at 97.79 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3821,18 +3644,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8bf0dd0-80c4-4fe4-a7c5-b35f59c77176")
-	)
-	(junction
-		(at 128.27 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6ac11ef-23a4-4876-aa01-7f20f345f0a2")
-	)
-	(junction
-		(at 144.78 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6b60a2d-a776-4532-93f4-1c7245c77594")
 	)
 	(junction
 		(at 248.92 139.7)
@@ -3916,16 +3727,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 144.78 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa7e90b-7add-49ca-881f-b94dceb123af")
-	)
-	(wire
-		(pts
 			(xy 256.54 102.87) (xy 254 102.87)
 		)
 		(stroke
@@ -3943,16 +3744,6 @@
 			(type default)
 		)
 		(uuid "1c123cf7-3aef-4962-9b27-eb1e4a4ce5d3")
-	)
-	(wire
-		(pts
-			(xy 143.51 95.25) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c3f1cd3-5cd0-4c70-b979-d381a29a90dc")
 	)
 	(wire
 		(pts
@@ -4116,16 +3907,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 93.98) (xy 143.51 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c69c208-f25f-4523-a0eb-916af81e4a5c")
-	)
-	(wire
-		(pts
 			(xy 261.62 82.55) (xy 267.97 82.55)
 		)
 		(stroke
@@ -4133,26 +3914,6 @@
 			(type default)
 		)
 		(uuid "4d657496-1f9a-491e-8008-6953bda9d632")
-	)
-	(wire
-		(pts
-			(xy 143.51 93.98) (xy 144.78 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4db04508-baad-4da5-a3b4-0d1db2129e13")
-	)
-	(wire
-		(pts
-			(xy 128.27 97.79) (xy 128.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55df6d66-e740-468a-9644-ce0c18f3f2ac")
 	)
 	(wire
 		(pts
@@ -4273,26 +4034,6 @@
 			(type default)
 		)
 		(uuid "70137ad8-c8ad-48ed-84dd-fb4dad29ac32")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 143.51 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ab6abb-4d5d-4a46-9a36-b6c3e5316ac8")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 138.43 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "763a4606-f731-4293-b285-9e0eca1d0f5b")
 	)
 	(wire
 		(pts
@@ -4796,7 +4537,7 @@
 	)
 	(text "TMUX1104DGSR: \"For reliable operation, connect a\ndecoupling capacitor ranging from 0.1µF to 10µF between VDD and GND.\""
 		(exclude_from_sim no)
-		(at 114.3 33.274 0)
+		(at 145.542 34.036 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -4845,7 +4586,7 @@
 		)
 		(uuid "a80412ec-a59e-41fb-a053-da80e0c4fb3c")
 	)
-	(global_label "5V_SW"
+	(global_label "5V_F"
 		(shape input)
 		(at 266.7 120.65 0)
 		(fields_autoplaced yes)
@@ -4857,7 +4598,7 @@
 		)
 		(uuid "275ae1f6-df22-4b14-97cd-e778e7ab47bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.6118 120.65 0)
+			(at 274.0395 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4718,7 @@
 			)
 		)
 	)
-	(global_label "5V_SW"
+	(global_label "5V_F"
 		(shape input)
 		(at 274.32 82.55 0)
 		(fields_autoplaced yes)
@@ -4989,7 +4730,7 @@
 		)
 		(uuid "8074def3-c8cb-4508-a277-8abd01bbcb51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.2318 82.55 0)
+			(at 281.6595 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,6 +4824,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V0_RF"
+		(shape input)
+		(at 92.71 133.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9dc3681-8127-4162-83d0-00181693f95b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 123.531 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6588,72 +6351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 92.71 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44373835-b532-4b04-9e7c-8373b4bb25bc")
-		(property "Reference" "#PWR031"
-			(at 92.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 92.71 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20893ee0-5497-471b-8c37-f46189740363")
-		)
-		(instances
-			(project "VIP_direct_sampling_board"
-				(path "/45f99759-2553-47c9-8640-9aec1810c6cc"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 261.62 38.1 0)
 		(unit 1)
@@ -8094,73 +7791,6 @@
 			(project "VIP_direct_sampling_board"
 				(path "/45f99759-2553-47c9-8640-9aec1810c6cc"
 					(reference "TH4_CAL_LNA")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at -148.59 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86172a18-8e04-40d9-9a4c-bf3c9e88d164")
-		(property "Reference" "#PWR01"
-			(at -148.59 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -148.59 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -148.59 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -148.59 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -148.59 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5411e784-d2ce-49d0-930e-52af013b7044")
-		)
-		(instances
-			(project "VIP_direct_sampling_board"
-				(path "/45f99759-2553-47c9-8640-9aec1810c6cc"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10107,83 +9737,6 @@
 			(project "VIP_direct_sampling_board"
 				(path "/45f99759-2553-47c9-8640-9aec1810c6cc"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:LM4132xMF-1.8")
-		(at -148.59 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5223318-55f8-46b0-a970-a9640adf1463")
-		(property "Reference" "U10"
-			(at -148.59 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM4132xMF-1.8"
-			(at -148.59 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at -148.59 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4132.pdf"
-			(at -148.59 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision Low Dropout Voltage Reference, 1.8V, ±0.05% to ±0.5%, SOT-23-5"
-			(at -148.59 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a77b54dc-2074-4b1b-a114-60485b17af54")
-		)
-		(pin "5"
-			(uuid "c5966392-79aa-4bb1-834f-cf6db50a775f")
-		)
-		(pin "3"
-			(uuid "55b74838-3a24-4480-8d9f-05922ebd4a1d")
-		)
-		(pin "1"
-			(uuid "85c136d4-195d-40d6-a59a-4adc58a4d8d7")
-		)
-		(pin "2"
-			(uuid "d36aae06-f920-4200-b0e4-288b95bb5e9e")
-		)
-		(instances
-			(project ""
-				(path "/45f99759-2553-47c9-8640-9aec1810c6cc"
-					(reference "U10")
 					(unit 1)
 				)
 			)

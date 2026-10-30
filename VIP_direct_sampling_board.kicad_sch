@@ -9930,9 +9930,9 @@
 		)
 		(uuid "74e0a8db-35cb-4ce4-b18b-c8203e7e8437")
 	)
-	(text "TMUX1104DGSR: \"For reliable operation, connect a\ndecoupling capacitor ranging from 0.1µF to 10µF between VDD and GND.\""
+	(text "TMUX1104DGSR: \"For reliable operation, connect a\ndecoupling capacitor ranging from 0.1µF to 10µF \nbetween VDD and GND.\""
 		(exclude_from_sim no)
-		(at 160.528 57.912 0)
+		(at 175.006 56.642 0)
 		(effects
 			(font
 				(size 0.762 0.762)

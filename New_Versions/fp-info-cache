@@ -1,4 +1,4 @@
-24488924277428324
+24506869962335487
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98014,6 +98014,69 @@ ADC-20-4_
 6
 6
 VIP_Footprint_Library_RF_Card_PCB
+DG983-2_MNC
+
+DAT-15R5-SP+ 
+0
+21
+21
+VIP_Footprint_Library_RF_Card_PCB
+MountingHole_2.7mm_M2.5_Pad_Via
+Mounting Hole 2.7mm
+mounting hole 2.7mm
+0
+9
+1
+VIP_Footprint_Library_RF_Card_PCB
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+VIP_Footprint_Library_RF_Card_PCB
+Resistors_Capacitors_Inductors_0603
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+VIP_Footprint_Library_RF_Card_PCB
+Resistors_Capacitors_Inductors_0805
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+VIP_Footprint_Library_RF_Card_PCB
+TestPoint_Keystone_5015_Micro-Miniature
+
+
+0
+1
+1
+VIP_Footprint_Library_RF_Card_PCB
+TestPoint_Pad_D1.0mm
+
+
+0
+1
+1
+VIP_Footprint_Library_RF_Card_PCB
+TestPoint_Pad_D1.5mm
+
+
+0
+1
+1
+VIP_Footprint_Library_RF_Card_PCB
+Through_Hole_Thermistors
+
+
+0
+2
+2
+VIP_Footprint_Library_RF_Card_PCB
 ul_142-0701-201
 
 142-0701-201 
@@ -98083,6 +98146,13 @@ RBP-140+
 0
 8
 8
+VIP_Footprint_Library_RF_Card_PCB
+ul_TB1103A
+
+TSS-23ULN+ 
+0
+10
+10
 VIP_Footprint_Library_RF_Card_PCB
 ul_TMUX1104DGSR (1)
 

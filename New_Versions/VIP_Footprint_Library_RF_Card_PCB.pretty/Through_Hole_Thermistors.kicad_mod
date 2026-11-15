@@ -68,19 +68,19 @@
 	)
 	(attr through_hole)
 	(fp_arc
-		(start -0.474219 0.339221)
-		(mid -1.040327 0.000117)
-		(end -0.482039 -0.351713)
+		(start -0.490683 0.312977)
+		(mid -1 0)
+		(end -0.490683 -0.312977)
 		(stroke
-			(width 0.12)
+			(width 0.04)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "6e3c17eb-405f-4fcd-83cc-b618670563b6")
 	)
 	(fp_rect
-		(start -1.15 -0.506698)
-		(end 1.15 0.493302)
+		(start -1.05 -0.41)
+		(end 1.05 0.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -93,7 +93,7 @@
 		(start -0.612047 -0.003302)
 		(end 0.687953 -0.003302)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -101,9 +101,9 @@
 	)
 	(fp_circle
 		(center -0.65 0)
-		(end -0.26 0)
+		(end -0.34 0)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(fill none)

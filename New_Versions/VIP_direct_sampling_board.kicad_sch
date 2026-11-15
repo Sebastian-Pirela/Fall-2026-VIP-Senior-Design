@@ -10422,8 +10422,8 @@
 		(uuid "ffe80b26-8f66-4bfe-9b57-56152f23ccf2")
 	)
 	(rectangle
-		(start 370.84 342.9)
-		(end 431.8 373.38)
+		(start 407.67 344.17)
+		(end 468.63 374.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -10638,6 +10638,16 @@
 		)
 		(uuid "4f63ef5f-b799-4e36-b351-d03551e753ec")
 	)
+	(text "note: add other Test Points"
+		(exclude_from_sim no)
+		(at 393.446 395.986 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "511274f8-0018-445d-8f26-6278379976eb")
+	)
 	(text "LNFE Thermistors"
 		(exclude_from_sim no)
 		(at 513.842 68.58 0)
@@ -10711,7 +10721,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 399.796 378.968 0)
+		(at 436.626 380.238 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -13936,7 +13946,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 415.29 358.14 0)
+		(at 452.12 359.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13944,7 +13954,7 @@
 		(dnp no)
 		(uuid "1ba0df86-1911-4d82-a0e3-e82603d2a745")
 		(property "Reference" "H4"
-			(at 414.02 353.314 0)
+			(at 450.85 354.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,7 +13963,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 418.846 365.506 90)
+			(at 455.676 366.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,8 +13971,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_3.2mm_M3_Pad_Via"
-			(at 415.29 358.14 0)
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 452.12 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13971,7 +13981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 415.29 358.14 0)
+			(at 452.12 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,7 +13990,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 415.29 358.14 0)
+			(at 452.12 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19019,7 +19029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_142-0701-201"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_CONMHF1-SMD-G-T"
 			(at 111.76 361.95 0)
 			(effects
 				(font
@@ -19408,7 +19418,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 394.97 358.14 0)
+		(at 431.8 359.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -19416,7 +19426,7 @@
 		(dnp no)
 		(uuid "989e4925-637d-45e0-abb1-24f3ac79454b")
 		(property "Reference" "H2"
-			(at 393.7 353.314 0)
+			(at 430.53 354.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19425,7 +19435,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 398.526 365.506 90)
+			(at 435.356 366.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19433,8 +19443,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_3.2mm_M3_Pad_Via"
-			(at 394.97 358.14 0)
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 431.8 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19443,7 +19453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 358.14 0)
+			(at 431.8 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19452,7 +19462,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 394.97 358.14 0)
+			(at 431.8 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20524,7 +20534,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 405.13 360.68 0)
+		(at 441.96 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20533,7 +20543,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5567e29-fae0-491c-b2ae-6d01c937cfac")
 		(property "Reference" "#PWR064"
-			(at 405.13 367.03 0)
+			(at 441.96 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20542,7 +20552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 405.13 365.76 0)
+			(at 441.96 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20550,7 +20560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 405.13 360.68 0)
+			(at 441.96 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20559,7 +20569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 405.13 360.68 0)
+			(at 441.96 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20568,7 +20578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 405.13 360.68 0)
+			(at 441.96 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22005,7 +22015,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 384.81 360.68 0)
+		(at 421.64 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22014,7 +22024,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf27b140-861b-477d-850f-8b60d017e459")
 		(property "Reference" "#PWR062"
-			(at 384.81 367.03 0)
+			(at 421.64 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22023,7 +22033,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.81 365.76 0)
+			(at 421.64 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22031,7 +22041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 360.68 0)
+			(at 421.64 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22040,7 +22050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 360.68 0)
+			(at 421.64 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22049,7 +22059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 384.81 360.68 0)
+			(at 421.64 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22274,7 +22284,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 405.13 358.14 0)
+		(at 441.96 359.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -22282,7 +22292,7 @@
 		(dnp no)
 		(uuid "d5839a32-ddc9-4765-81e7-2bfd1e4ccc4f")
 		(property "Reference" "H3"
-			(at 403.86 353.314 0)
+			(at 440.69 354.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22291,7 +22301,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 408.686 365.506 90)
+			(at 445.516 366.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22299,8 +22309,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_3.2mm_M3_Pad_Via"
-			(at 405.13 358.14 0)
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 441.96 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22309,7 +22319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 405.13 358.14 0)
+			(at 441.96 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22318,7 +22328,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 405.13 358.14 0)
+			(at 441.96 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23287,7 +23297,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 394.97 360.68 0)
+		(at 431.8 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23296,7 +23306,7 @@
 		(fields_autoplaced yes)
 		(uuid "e91172ea-2302-46f4-a449-0df84563f1ea")
 		(property "Reference" "#PWR063"
-			(at 394.97 367.03 0)
+			(at 431.8 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23305,7 +23315,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 394.97 365.76 0)
+			(at 431.8 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23313,7 +23323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 394.97 360.68 0)
+			(at 431.8 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23322,7 +23332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 360.68 0)
+			(at 431.8 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +23341,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 394.97 360.68 0)
+			(at 431.8 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23690,7 +23700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 415.29 360.68 0)
+		(at 452.12 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23699,7 +23709,7 @@
 		(fields_autoplaced yes)
 		(uuid "f624d404-8e38-4063-b9ab-5402cb88434c")
 		(property "Reference" "#PWR065"
-			(at 415.29 367.03 0)
+			(at 452.12 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23708,7 +23718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 415.29 365.76 0)
+			(at 452.12 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23716,7 +23726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 415.29 360.68 0)
+			(at 452.12 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23725,7 +23735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.29 360.68 0)
+			(at 452.12 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23734,7 +23744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 415.29 360.68 0)
+			(at 452.12 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23822,7 +23832,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 384.81 358.14 0)
+		(at 421.64 359.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23830,7 +23840,7 @@
 		(dnp no)
 		(uuid "f72863a6-7722-4548-abd4-926d3ac93896")
 		(property "Reference" "H1"
-			(at 383.54 353.314 0)
+			(at 420.37 354.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23839,7 +23849,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 388.366 365.506 90)
+			(at 425.196 366.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23847,8 +23857,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_3.2mm_M3_Pad_Via"
-			(at 384.81 358.14 0)
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 421.64 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23857,7 +23867,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 384.81 358.14 0)
+			(at 421.64 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23866,7 +23876,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 384.81 358.14 0)
+			(at 421.64 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

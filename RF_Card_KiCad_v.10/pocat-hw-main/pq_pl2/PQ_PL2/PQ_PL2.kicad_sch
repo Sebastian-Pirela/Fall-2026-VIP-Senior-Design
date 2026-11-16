@@ -25355,7 +25355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Resistors_Capacitors_Inductors_0805"
+		(property "Footprint" ""
 			(at 251.46 64.135 0)
 			(hide yes)
 			(show_name no)

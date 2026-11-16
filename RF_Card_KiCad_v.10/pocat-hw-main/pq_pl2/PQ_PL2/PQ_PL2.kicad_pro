@@ -47,7 +47,7 @@
         "silk_text_italic": false,
         "silk_text_size_h": 0.4,
         "silk_text_size_v": 0.4,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
@@ -526,79 +526,44 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6,
-        "microvia_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.32,
-        "line_style": 0,
-        "microvia_diameter": 0.6,
-        "microvia_drill": 0.3,
-        "name": "50ohm",
+        "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.21,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "tuning_profile": ""
       },
       {
-        "bus_width": 12,
-        "clearance": 0.22,
-        "diff_pair_gap": 0.16,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.18,
-        "line_style": 0,
-        "microvia_diameter": 0.6,
-        "microvia_drill": 0.3,
-        "name": "75ohm",
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RF_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.11,
+        "track_width": 0.335,
         "tuning_profile": "",
         "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.18,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.8,
-        "microvia_drill": 0.4,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -606,108 +571,7 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": [
-      {
-        "netclass": "75ohm",
-        "pattern": "IO-"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "IO+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "IF+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "IF-"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "RSSI-"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "RSSI+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "A+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "A-"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "B+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "B-"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "C+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "C-"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "D+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "D-"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "E+"
-      },
-      {
-        "netclass": "75ohm",
-        "pattern": "E-"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "Net-(C1-Pad1)"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "Net-(U1-In)"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "Net-(U1-Out&DCin)"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "Net-(C2-Pad2)"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "Net-(FL1-IN)"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "Net-(FL1-Out)"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "RF"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": "Net-(U2-RFIN)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "5V"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

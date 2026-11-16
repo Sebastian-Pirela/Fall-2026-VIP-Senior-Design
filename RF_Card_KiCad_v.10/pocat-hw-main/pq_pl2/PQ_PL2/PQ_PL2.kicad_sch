@@ -14553,7 +14553,7 @@
 			)
 		)
 	)
-	(global_label "3V0_RF"
+	(global_label "3V0_COLD"
 		(shape input)
 		(at 104.14 87.63 90)
 		(fields_autoplaced yes)
@@ -14565,7 +14565,7 @@
 		)
 		(uuid "3425fbd8-2eee-4636-9563-e1f5e0d1285a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 77.811 90)
+			(at 104.14 75.271 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15393,7 +15393,7 @@
 			)
 		)
 	)
-	(global_label "3V0_RF"
+	(global_label "3V0_COLD"
 		(shape input)
 		(at 81.28 104.14 90)
 		(fields_autoplaced yes)
@@ -15405,7 +15405,7 @@
 		)
 		(uuid "6c59413c-d090-43dc-9543-4cbd671b43a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 94.321 90)
+			(at 81.28 91.781 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

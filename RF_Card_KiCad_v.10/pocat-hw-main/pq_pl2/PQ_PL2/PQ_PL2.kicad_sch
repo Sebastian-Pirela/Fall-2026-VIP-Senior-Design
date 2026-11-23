@@ -12499,30 +12499,6 @@
 			)
 		)
 	)
-	(global_label "3V0_COLD"
-		(shape input)
-		(at 104.14 87.63 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3425fbd8-2eee-4636-9563-e1f5e0d1285a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 75.271 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RF_PWR_EN"
 		(shape input)
 		(at 388.62 276.86 180)

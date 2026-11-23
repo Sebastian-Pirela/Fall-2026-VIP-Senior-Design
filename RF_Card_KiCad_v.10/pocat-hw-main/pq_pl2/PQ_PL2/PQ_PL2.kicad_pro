@@ -527,7 +527,7 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -539,31 +539,38 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
+        "clearance": 0.25,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.67,
+        "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.335,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.5,
+        "via_drill": 0.25
       }
     ],
     "meta": {
@@ -571,7 +578,108 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "RF_50",
+        "pattern": "RF_IN"
+      },
+      {
+        "netclass": "RF_50",
+        "pattern": "RF_INTERMEDIATE"
+      },
+      {
+        "netclass": "RF_50",
+        "pattern": "RF_OUT"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "5V_SW"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RFCHAIN_LNA_2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RFCHAIN_LNA_1"
+      },
+      {
+        "netclass": "RF_50",
+        "pattern": "DSA_TO_AMP"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "3V0_RF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSA_SDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C_DSA_SCL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSA_LE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CAL_COLD_LOAD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CAL_LNA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CAL_CTRL_S2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CAL_MATCH_LOAD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RFCHAIN_LNA_0"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "5V_F"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "3V0_TLM"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "3V0_COLD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C_SDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CAL_NOISE_DIODE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CAL_CTRL_S0"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -710,7 +818,7 @@
         "uuid": "0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
       }
     ],
-    "used_designators": "#FLG1-6,#PWR1-17,#PWR19,#PWR21-37,#PWR39-66,#PWR81,#PWR87-93,#PWR115,#PWR125,#PWR140,C1-23,C30,C33,C35-41,D1,H1-12,J1-17,L1-7,L11,R1-12,R14-24,TH1_MATCHED_LOAD1,TH2_COLD_LOAD1,TH3_NOISE_DIODE1,TH4_CAL_LNA1,TH5_LNA1,TH6_LNA_1,TH7_LNA_2,TP1-11,U1-5,U7,U9,U15-17,U20,U24-27,X1",
+    "used_designators": "#FLG1-6,#PWR1-37,#PWR39-66,#PWR81,#PWR87-93,#PWR115,#PWR125,#PWR140,C1-23,C30,C33,C35-41,D1,H1-12,J1-17,L1-7,L11,R1-12,R14-24,TH1_MATCHED_LOAD1,TH2_COLD_LOAD1,TH3_NOISE_DIODE1,TH4_CAL_LNA1,TH5_LNA1,TH6_LNA_1,TH7_LNA_2,TP1-11,U1-9,U15-17,U20,U24-27,X1",
     "variants": []
   },
   "sheets": [

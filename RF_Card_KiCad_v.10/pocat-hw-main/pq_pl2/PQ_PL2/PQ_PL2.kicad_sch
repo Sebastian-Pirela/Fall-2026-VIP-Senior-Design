@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -124,7 +124,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -142,7 +142,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,7 +204,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -381,7 +381,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -491,7 +491,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -509,7 +509,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -571,7 +571,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -604,7 +604,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "R_* RV_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -618,7 +618,7 @@
 			(symbol "Thermistor_US_0_1"
 				(polyline
 					(pts
-						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27) (xy 1.905 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -688,24 +688,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "Thermistor_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -723,7 +711,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -741,455 +729,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_5"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_5_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_5_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_6"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_6_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_6_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_7"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_7_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_7_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_8"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_8_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_8_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_Pad_5"
+		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1198,7 +738,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -1277,7 +817,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_5_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
 					(center 0 1.27)
 					(radius 1.27)
@@ -1290,376 +830,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_5_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_Pad_6"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_6_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_6_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_Pad_7"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_7_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_7_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_Pad_8"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_8_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_8_1_1"
+			(symbol "MountingHole_Pad_1_1"
 				(pin input line
 					(at 0 -2.54 90)
 					(length 2.54)
@@ -1708,7 +879,7 @@
 				)
 			)
 			(property "Footprint" "Breakout_Castellated_15x25mm"
-				(at 0 -11.43 0)
+				(at 0 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1743,7 +914,7 @@
 			(symbol "Noise_Source_Breakout_0_1"
 				(rectangle
 					(start -7.62 7.62)
-					(end 7.62 -7.62)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1880,8 +1051,26 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "ANALOG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1890,7 +1079,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7526,7 +6715,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7665,7 +6854,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7780,7 +6969,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7844,7 +7033,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7881,7 +7070,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8261,7 +7450,7 @@
 	)
 	(text "Custom Noise Source Breakout Board\n(50 Ohm Equiv. Impedance)"
 		(exclude_from_sim no)
-		(at 277.114 126.492 0)
+		(at 277.368 129.032 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8476,7 +7665,7 @@
 		(uuid "4be5243e-71e2-4017-bde3-56462ac6e574")
 	)
 	(junction
-		(at 429.26 44.45)
+		(at 438.15 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "511a47a9-1461-4523-b2c1-a70c8f7159c7")
@@ -8620,19 +7809,13 @@
 		(uuid "7ac36382-11ce-4015-b151-07d830fe888e")
 	)
 	(junction
-		(at 445.77 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b9fc4b6-c1a9-46f2-965f-9208fe935963")
-	)
-	(junction
 		(at 46.99 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "845c74fd-61d3-452d-b046-03078036b233")
 	)
 	(junction
-		(at 412.75 44.45)
+		(at 421.64 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e076434-e1d8-49fa-a43d-5270f580c6f8")
@@ -8662,7 +7845,7 @@
 		(uuid "9d89e92b-f225-4732-bdfa-1fbda40c203a")
 	)
 	(junction
-		(at 461.01 44.45)
+		(at 455.93 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3597ae4-6936-4b93-a8de-244750069702")
@@ -9189,7 +8372,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 116.84) (xy 264.16 115.57)
+			(xy 264.16 118.11) (xy 264.16 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9839,7 +9022,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 44.45) (xy 412.75 44.45)
+			(xy 416.56 44.45) (xy 421.64 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10299,7 +9482,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 34.29) (xy 461.01 36.83)
+			(xy 455.93 34.29) (xy 455.93 36.83)
 		)
 		(stroke
 			(width 0)
@@ -10316,16 +9499,6 @@
 			(type default)
 		)
 		(uuid "6457bb27-40fe-4631-8b31-d52525389c29")
-	)
-	(wire
-		(pts
-			(xy 287.02 115.57) (xy 289.56 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65df5250-7389-417e-9fd7-bc202d1497a4")
 	)
 	(wire
 		(pts
@@ -10559,7 +9732,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 44.45) (xy 461.01 44.45)
+			(xy 450.85 44.45) (xy 455.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10709,7 +9882,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 44.45) (xy 429.26 44.45)
+			(xy 433.07 44.45) (xy 438.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10876,16 +10049,6 @@
 			(type default)
 		)
 		(uuid "9d20499f-4412-40fb-b99d-f53637de4644")
-	)
-	(wire
-		(pts
-			(xy 289.56 115.57) (xy 289.56 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d72b30b-057a-487f-b6b3-2108e5df4e0b")
 	)
 	(wire
 		(pts
@@ -11099,7 +10262,17 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 34.29) (xy 412.75 36.83)
+			(xy 287.02 118.11) (xy 289.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c08c62-69c7-44e7-93f9-23e041643298")
+	)
+	(wire
+		(pts
+			(xy 421.64 34.29) (xy 421.64 36.83)
 		)
 		(stroke
 			(width 0)
@@ -11289,16 +10462,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 44.45) (xy 445.77 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c78683fb-ce42-49d2-b0c6-f525cafba19a")
-	)
-	(wire
-		(pts
 			(xy 527.05 118.11) (xy 527.05 125.73)
 		)
 		(stroke
@@ -11359,7 +10522,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 34.29) (xy 429.26 36.83)
+			(xy 438.15 34.29) (xy 438.15 36.83)
 		)
 		(stroke
 			(width 0)
@@ -11416,16 +10579,6 @@
 			(type default)
 		)
 		(uuid "cc5c8b3b-084c-4ea1-9378-6c59b0915fc4")
-	)
-	(wire
-		(pts
-			(xy 445.77 34.29) (xy 445.77 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb33cac-9862-499a-9f70-3ccc7ad948cf")
 	)
 	(wire
 		(pts
@@ -12043,7 +11196,7 @@
 	)
 	(global_label "5V_SW"
 		(shape input)
-		(at 429.26 34.29 90)
+		(at 438.15 34.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12053,7 +11206,7 @@
 		)
 		(uuid "04840c61-8216-4125-97f6-fcaab11b00c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 429.26 25.3782 90)
+			(at 438.15 25.3782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12185,30 +11338,6 @@
 			)
 		)
 	)
-	(global_label "CAL_NOISE_DIODE"
-		(shape input)
-		(at 440.69 44.45 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f03d4f5-8c09-4ed9-9ba1-1691209f9b67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 440.69 64.0057 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "I2C_DSA_SCL"
 		(shape input)
 		(at 227.33 180.34 180)
@@ -12246,30 +11375,6 @@
 		(uuid "22570e2e-02a6-4d9a-959e-780f461bc0d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 295.569 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "5V_SW"
-		(shape input)
-		(at 445.77 34.29 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ebccdb6-26d4-4448-9cae-02ef854f8e7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 445.77 25.3782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12355,7 +11460,7 @@
 	)
 	(global_label "CAL_COLD_LOAD"
 		(shape input)
-		(at 424.18 44.45 270)
+		(at 433.07 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12365,7 +11470,7 @@
 		)
 		(uuid "35aa2e6d-790f-4a82-885f-4a0ae8bcc352")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 424.18 62.3729 90)
+			(at 433.07 62.3729 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12571,7 +11676,7 @@
 	)
 	(global_label "5V_SW"
 		(shape input)
-		(at 461.01 34.29 90)
+		(at 455.93 34.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12581,7 +11686,7 @@
 		)
 		(uuid "5505b22c-56c0-4f62-96a3-03ad4c30c4f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 461.01 25.3782 90)
+			(at 455.93 25.3782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12713,9 +11818,33 @@
 			)
 		)
 	)
+	(global_label "CAL_NOISE_DIODE"
+		(shape input)
+		(at 287.02 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cabba41-7248-4052-9b3d-27555b1638bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.5757 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "5V_SW"
 		(shape input)
-		(at 412.75 34.29 90)
+		(at 421.64 34.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12725,7 +11854,7 @@
 		)
 		(uuid "6ef9fe2e-957f-4b27-a2a3-c5bdc2f48c84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 412.75 25.3782 90)
+			(at 421.64 25.3782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13147,7 +12276,7 @@
 	)
 	(global_label "CAL_LNA"
 		(shape input)
-		(at 455.93 44.45 270)
+		(at 450.85 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13157,7 +12286,7 @@
 		)
 		(uuid "a5cd3bed-6f4f-4021-b456-d8937d346ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 455.93 55.2367 90)
+			(at 450.85 55.2367 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13699,7 +12828,7 @@
 	)
 	(global_label "CAL_MATCH_LOAD"
 		(shape input)
-		(at 407.67 44.45 270)
+		(at 416.56 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13709,7 +12838,7 @@
 		)
 		(uuid "f6669f45-f7e2-4ea1-b54a-f210c297480c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 407.67 63.5824 90)
+			(at 416.56 63.5824 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13747,7 +12876,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_US")
-		(at 461.01 40.64 0)
+		(at 455.93 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13757,7 +12886,7 @@
 		(dnp no)
 		(uuid "00e946fb-0afb-4204-bd6f-a7d2665b3019")
 		(property "Reference" "TH4_CAL_LNA1"
-			(at 465.582 43.688 90)
+			(at 460.502 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13768,7 +12897,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 463.55 41.91 0)
+			(at 458.47 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13779,7 +12908,7 @@
 			)
 		)
 		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Through_Hole_Thermistors"
-			(at 461.01 40.64 0)
+			(at 455.93 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13790,7 +12919,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 461.01 40.64 0)
+			(at 455.93 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13801,7 +12930,7 @@
 			)
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 461.01 40.64 0)
+			(at 455.93 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14624,7 +13753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 412.75 52.07 0)
+		(at 421.64 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14635,7 +13764,7 @@
 		(fields_autoplaced yes)
 		(uuid "1237faf2-f220-4243-920b-58348fb66814")
 		(property "Reference" "#PWR010"
-			(at 412.75 58.42 0)
+			(at 421.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14646,7 +13775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 412.75 57.15 0)
+			(at 421.64 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14656,7 +13785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 52.07 0)
+			(at 421.64 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14667,7 +13796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 52.07 0)
+			(at 421.64 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14678,7 +13807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 412.75 52.07 0)
+			(at 421.64 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14998,7 +14127,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 461.01 52.07 0)
+		(at 455.93 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15009,7 +14138,7 @@
 		(fields_autoplaced yes)
 		(uuid "1992be9f-a7b9-4451-ab28-db04797f2445")
 		(property "Reference" "#PWR017"
-			(at 461.01 58.42 0)
+			(at 455.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15020,7 +14149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 461.01 57.15 0)
+			(at 455.93 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15030,7 +14159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 461.01 52.07 0)
+			(at 455.93 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15041,7 +14170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 461.01 52.07 0)
+			(at 455.93 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15052,7 +14181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 461.01 52.07 0)
+			(at 455.93 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15155,7 +14284,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_7")
 		(lib_id "power:GND")
 		(at 330.2 353.06 0)
 		(unit 1)
@@ -15209,7 +14337,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 330.2 353.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15406,7 +14534,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 429.26 48.26 0)
+		(at 438.15 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15417,7 +14545,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f6cc9eb-0ae8-4b79-a52b-0de2b2ad7066")
 		(property "Reference" "R2"
-			(at 431.8 46.9899 0)
+			(at 440.69 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15428,7 +14556,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 431.8 49.5299 0)
+			(at 440.69 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15439,7 +14567,7 @@
 			)
 		)
 		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Resistors_Capacitors_Inductors_0603"
-			(at 430.276 48.514 90)
+			(at 439.166 48.514 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15450,7 +14578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 429.26 48.26 0)
+			(at 438.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15461,7 +14589,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 429.26 48.26 0)
+			(at 438.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15487,7 +14615,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_Pad_5")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 350.52 350.52 0)
 		(unit 1)
@@ -15544,7 +14671,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 350.52 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16285,7 +15412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
 			(at 173.99 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -16758,7 +15885,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_Pad_6")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 360.68 350.52 0)
 		(unit 1)
@@ -16815,8 +15941,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 360.68 350.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17075,7 +16202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
 			(at 135.89 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -17432,7 +16559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
 			(at 151.13 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -18155,7 +17282,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_Pad_7")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 340.36 350.52 0)
 		(unit 1)
@@ -18212,7 +17338,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 340.36 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18439,88 +17565,6 @@
 			(project "PQ_PL2"
 				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
 					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 445.77 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e7063a3-923a-4190-8161-4b440e102233")
-		(property "Reference" "R3"
-			(at 448.31 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 448.31 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Resistors_Capacitors_Inductors_0603"
-			(at 446.786 48.514 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 445.77 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 445.77 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "abc48c50-68a2-4f8f-ac87-282db1f06fcb")
-		)
-		(pin "1"
-			(uuid "5adf3f2d-e1b2-4747-8c87-0ad112496f68")
-		)
-		(instances
-			(project "PQ_PL2"
-				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19178,7 +18222,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 412.75 48.26 0)
+		(at 421.64 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19189,7 +18233,7 @@
 		(fields_autoplaced yes)
 		(uuid "5690b018-b15c-4021-a9a0-bb7a91c6fc40")
 		(property "Reference" "R1"
-			(at 415.29 46.9899 0)
+			(at 424.18 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19200,7 +18244,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 415.29 49.5299 0)
+			(at 424.18 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19211,7 +18255,7 @@
 			)
 		)
 		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Resistors_Capacitors_Inductors_0603"
-			(at 413.766 48.514 90)
+			(at 422.656 48.514 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19222,7 +18266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 412.75 48.26 0)
+			(at 421.64 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19233,7 +18277,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 412.75 48.26 0)
+			(at 421.64 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19341,7 +18385,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_8")
 		(lib_id "power:GND")
 		(at 350.52 353.06 0)
 		(unit 1)
@@ -19395,8 +18438,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 350.52 353.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 376.936 375.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19660,7 +18703,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 461.01 48.26 0)
+		(at 455.93 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19671,7 +18714,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e5a8cad-9a3b-4427-99e8-a8406038c148")
 		(property "Reference" "R4"
-			(at 463.55 46.9899 0)
+			(at 458.47 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19682,7 +18725,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 463.55 49.5299 0)
+			(at 458.47 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19693,7 +18736,7 @@
 			)
 		)
 		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Resistors_Capacitors_Inductors_0603"
-			(at 462.026 48.514 90)
+			(at 456.946 48.514 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19704,7 +18747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 461.01 48.26 0)
+			(at 455.93 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19715,7 +18758,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 461.01 48.26 0)
+			(at 455.93 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19851,7 +18894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
 			(at 190.5 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -20256,87 +19299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_US")
-		(at 445.77 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68b131a6-fbf8-4738-8c7e-d40af88bb575")
-		(property "Reference" "TH3_NOISE_DIODE1"
-			(at 450.088 43.434 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 448.31 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Through_Hole_Thermistors"
-			(at 445.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 445.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 445.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4915f9e1-a610-417f-bff7-4cb69d98f3f3")
-		)
-		(pin "2"
-			(uuid "6d38762e-8990-4f25-9952-b677d6579e61")
-		)
-		(instances
-			(project "PQ_PL2"
-				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
-					(reference "TH3_NOISE_DIODE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 483.87 139.7 0)
 		(unit 1)
@@ -20655,7 +19617,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_US")
-		(at 412.75 40.64 0)
+		(at 421.64 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20665,7 +19627,7 @@
 		(dnp no)
 		(uuid "6eaeabcc-61b5-47e5-8836-aed59ceb871d")
 		(property "Reference" "TH1_MATCHED_LOAD1"
-			(at 416.814 43.434 90)
+			(at 425.704 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20676,7 +19638,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 415.29 41.91 0)
+			(at 424.18 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20687,7 +19649,7 @@
 			)
 		)
 		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Through_Hole_Thermistors"
-			(at 412.75 40.64 0)
+			(at 421.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20698,7 +19660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 412.75 40.64 0)
+			(at 421.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20709,7 +19671,7 @@
 			)
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 412.75 40.64 0)
+			(at 421.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20735,7 +19697,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 360.68 353.06 0)
 		(unit 1)
@@ -20789,8 +19750,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 360.68 353.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 390.398 374.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20812,7 +19773,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_Pad_8")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 330.2 350.52 0)
 		(unit 1)
@@ -20869,7 +19829,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 330.2 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21446,7 +20406,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 429.26 52.07 0)
+		(at 438.15 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21457,7 +20417,7 @@
 		(fields_autoplaced yes)
 		(uuid "7637435b-6350-4b11-875d-b2d3d9c0e674")
 		(property "Reference" "#PWR013"
-			(at 429.26 58.42 0)
+			(at 438.15 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21468,7 +20428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 429.26 57.15 0)
+			(at 438.15 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21478,7 +20438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 429.26 52.07 0)
+			(at 438.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21489,7 +20449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 429.26 52.07 0)
+			(at 438.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21500,7 +20460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 429.26 52.07 0)
+			(at 438.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22243,7 +21203,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_US")
-		(at 429.26 40.64 0)
+		(at 438.15 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22253,7 +21213,7 @@
 		(dnp no)
 		(uuid "86baa59a-0e38-4292-ad07-152483a9463e")
 		(property "Reference" "TH2_COLD_LOAD1"
-			(at 433.578 43.18 90)
+			(at 442.468 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22264,7 +21224,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 431.8 41.91 0)
+			(at 440.69 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22275,7 +21235,7 @@
 			)
 		)
 		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Through_Hole_Thermistors"
-			(at 429.26 40.64 0)
+			(at 438.15 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22286,7 +21246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 429.26 40.64 0)
+			(at 438.15 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22297,7 +21257,7 @@
 			)
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 429.26 40.64 0)
+			(at 438.15 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22411,7 +21371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ab5cff0-9a0b-495a-9eda-a0e1b8cebca4")
-		(property "Reference" "TH7_LNA_2"
+		(property "Reference" "TH7_LNA_3"
 			(at 532.384 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22475,7 +21435,7 @@
 		(instances
 			(project "PQ_PL2"
 				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
-					(reference "TH7_LNA_2")
+					(reference "TH7_LNA_3")
 					(unit 1)
 				)
 			)
@@ -22560,7 +21520,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 340.36 353.06 0)
 		(unit 1)
@@ -22614,8 +21573,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 340.36 353.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 371.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23477,7 +22436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_TB1103A"
+		(property "Footprint" "Filter:Filter_SAW_Epcos_DCC6C_3x3mm"
 			(at 184.15 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -24820,6 +23779,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 289.56 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c04ca1-06f9-4f3c-b52e-1083c66f5a46")
+		(property "Reference" "#PWR027"
+			(at 289.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de514450-9a61-4558-ba2e-7b550ca5fb3e")
+		)
+		(instances
+			(project "PQ_PL2"
+				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 411.48 240.03 0)
 		(unit 1)
@@ -24896,84 +23933,6 @@
 			(project "PQ_PL2"
 				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 289.56 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c18a54fe-46e7-416a-9ea9-58b7b65e0b5b")
-		(property "Reference" "#PWR027"
-			(at 289.56 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.56 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4094070-863f-4930-be05-67efc399e865")
-		)
-		(instances
-			(project "PQ_PL2"
-				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -25145,7 +24104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 116.84 0)
+		(at 264.16 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25156,7 +24115,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2a91a96-dcbe-40b3-ac46-a5f8224d71c0")
 		(property "Reference" "#PWR031"
-			(at 264.16 123.19 0)
+			(at 264.16 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25167,7 +24126,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 121.92 0)
+			(at 264.16 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25177,7 +24136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 116.84 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25188,7 +24147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 116.84 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25199,7 +24158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 116.84 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26207,7 +25166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_PE42440MLBB-Z"
+		(property "Footprint" "QFN50P300X300X80-17N"
 			(at 191.77 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -26543,84 +25502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 445.77 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e54cd9f5-f49a-4662-a9c6-85136d843be1")
-		(property "Reference" "#PWR015"
-			(at 445.77 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 445.77 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 445.77 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 445.77 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 445.77 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6c6991a-2463-4348-af8f-ba4b3eb904f3")
-		)
-		(instances
-			(project "PQ_PL2"
-				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_US")
 		(at 513.08 40.64 0)
 		(unit 1)
@@ -26631,7 +25512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5c40f07-a94a-4ac6-be61-6b1014533e2f")
-		(property "Reference" "TH6_LNA_1"
+		(property "Reference" "TH6_LNA_2"
 			(at 517.144 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26695,7 +25576,7 @@
 		(instances
 			(project "PQ_PL2"
 				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
-					(reference "TH6_LNA_1")
+					(reference "TH6_LNA_2")
 					(unit 1)
 				)
 			)
@@ -26811,7 +25692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Noise_Source_Breakout"
+		(property "Footprint" "Breakout_Castellated_15x25mm"
 			(at 276.86 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -26867,6 +25748,9 @@
 		)
 		(pin "5"
 			(uuid "de696402-d395-4a8e-8362-271607f4fe3c")
+		)
+		(pin "9"
+			(uuid "1354262f-aafb-4427-8b5d-adf2df1eb586")
 		)
 		(instances
 			(project "PQ_PL2"
@@ -27229,7 +26113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_PSA4-5043-"
+		(property "Footprint" "MMM1362_MNC"
 			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -27801,7 +26685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_PSA4-5043-"
+		(property "Footprint" "MMM1362_MNC"
 			(at 118.11 193.04 0)
 			(hide yes)
 			(show_name no)

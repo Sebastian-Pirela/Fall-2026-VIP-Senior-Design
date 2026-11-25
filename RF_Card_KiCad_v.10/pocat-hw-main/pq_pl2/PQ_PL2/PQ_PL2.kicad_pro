@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 0.25
+          "height": 0.8636,
+          "width": 0.1778
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -224,7 +224,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -558,7 +559,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.67,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -698,6 +699,18 @@
       {
         "netclass": "POWER",
         "pattern": "5V_INTERMEDIATE"
+      },
+      {
+        "netclass": "RF_50",
+        "pattern": "/RF_NET_2"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "12V_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "3V0_RF"
       }
     ]
   },

@@ -7809,6 +7809,12 @@
 		(uuid "7ac36382-11ce-4015-b151-07d830fe888e")
 	)
 	(junction
+		(at 245.11 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cbafa65-1ecb-41ca-a333-f41fda140c34")
+	)
+	(junction
 		(at 46.99 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7921,12 +7927,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3ba7f87-477a-467d-8769-208ad36d2ceb")
-	)
-	(junction
-		(at 245.11 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3f0e065-cce9-46b6-b5dd-f49b524273d9")
 	)
 	(junction
 		(at 518.16 123.19)
@@ -8182,13 +8182,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 90.17) (xy 245.11 100.33)
+			(xy 245.11 96.52) (xy 259.08 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06ac9c10-32d2-4fca-964f-1adf549049b8")
+		(uuid "06f0c731-a159-4440-ac7d-83feb29a8718")
 	)
 	(wire
 		(pts
@@ -9062,7 +9062,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 100.33) (xy 227.33 101.6)
+			(xy 227.33 96.52) (xy 227.33 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9162,7 +9162,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 110.49) (xy 259.08 100.33)
+			(xy 259.08 110.49) (xy 259.08 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9692,7 +9692,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 36.83) (xy 185.42 26.67)
+			(xy 185.42 36.83) (xy 185.42 27.94)
 		)
 		(stroke
 			(width 0)
@@ -9962,6 +9962,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 90.17) (xy 245.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96874efc-56b5-47fe-8c60-663f3f63f769")
+	)
+	(wire
+		(pts
 			(xy 284.48 187.96) (xy 289.56 187.96)
 		)
 		(stroke
@@ -10209,16 +10219,6 @@
 			(type default)
 		)
 		(uuid "ae785807-cc1d-4d66-9ba4-706ebc0b4ef9")
-	)
-	(wire
-		(pts
-			(xy 245.11 100.33) (xy 259.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0cf5b3c-7d85-4b60-aba3-8cb83f1ba35a")
 	)
 	(wire
 		(pts
@@ -10692,7 +10692,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 26.67) (xy 119.38 26.67)
+			(xy 185.42 27.94) (xy 119.38 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10712,7 +10712,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 26.67) (xy 119.38 55.88)
+			(xy 119.38 27.94) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -11082,7 +11082,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 100.33) (xy 245.11 100.33)
+			(xy 227.33 96.52) (xy 245.11 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11169,6 +11169,36 @@
 			(type default)
 		)
 		(uuid "ffb178c2-b693-451d-9c36-3eb8c91d396f")
+	)
+	(label "RF_NET_1"
+		(at 119.38 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d3e7c65-7139-4c2a-bb9f-ebd80e415f3d")
+	)
+	(label "RF_NET_3"
+		(at 226.06 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c17e9e0b-bbc4-4fe0-ba42-0105ec315c7e")
+	)
+	(label "RF_NET_2"
+		(at 152.4 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d322a122-1a05-49c9-8422-02982842243d")
 	)
 	(global_label "COLD_LNA_EN"
 		(shape input)
@@ -11434,7 +11464,7 @@
 			)
 		)
 	)
-	(global_label "RF_PWR_EN"
+	(global_label "PWR_EN_RF"
 		(shape input)
 		(at 388.62 276.86 180)
 		(fields_autoplaced yes)
@@ -14339,6 +14369,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 330.2 353.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14673,6 +14704,7 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 350.52 350.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15412,7 +15444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
 			(at 173.99 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -16202,7 +16234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
 			(at 135.89 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -16559,7 +16591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
 			(at 151.13 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -17340,6 +17372,7 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 340.36 350.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18440,6 +18473,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 376.936 375.158 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18894,7 +18928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON10_1X10_TU_SLW_SAI"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:CON10_1X10_TU_SLW_SAI"
 			(at 190.5 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -19752,6 +19786,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 390.398 374.904 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19831,6 +19866,7 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 330.2 350.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21575,6 +21611,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 388.62 371.094 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22436,7 +22473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Filter:Filter_SAW_Epcos_DCC6C_3x3mm"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_TB1103A"
 			(at 184.15 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -23535,88 +23572,6 @@
 			(project "PQ_PL2"
 				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 486.41 201.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beae8d9f-cbc5-4fa5-9730-627971e4bc04")
-		(property "Reference" "C16"
-			(at 490.22 200.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 490.22 203.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Resistors_Capacitors_Inductors_0603"
-			(at 487.3752 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 486.41 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 486.41 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c3114e1-c1a6-494b-954b-d5c7992aeba4")
-		)
-		(pin "1"
-			(uuid "9d8fbae8-d7f5-481d-a0bb-fd0b0e2cf09c")
-		)
-		(instances
-			(project "PQ_PL2"
-				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -25166,7 +25121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X300X80-17N"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_PE42440MLBB-Z"
 			(at 191.77 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -25692,7 +25647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Breakout_Castellated_15x25mm"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Noise_Source_Breakout"
 			(at 276.86 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -26113,7 +26068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMM1362_MNC"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_PSA4-5043-"
 			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -26685,7 +26640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMM1362_MNC"
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:ul_PSA4-5043-"
 			(at 118.11 193.04 0)
 			(hide yes)
 			(show_name no)

@@ -22414,6 +22414,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 486.41 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c523d4-5dbb-4bb4-8d12-50f5062c5f4d")
+		(property "Reference" "C25"
+			(at 490.22 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 490.22 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "VIP_Footprint_Library_RF_Card_PCB:Resistors_Capacitors_Inductors_0603"
+			(at 487.3752 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 486.41 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 486.41 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bf638f37-9a69-4ada-a309-1c9a246c3327")
+		)
+		(pin "1"
+			(uuid "5f7ec4be-33fa-4c3b-9af9-a65e65337413")
+		)
+		(instances
+			(project "PQ_PL2"
+				(path "/0102ea52-fa36-4e75-937f-4e6cabe2fa6a"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Filter:B3715")
 		(at 184.15 193.04 0)
 		(unit 1)
